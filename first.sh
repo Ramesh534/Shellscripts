@@ -19,3 +19,7 @@ echo "This is a shell $WORD"
 # Display the content of the variable using alternative syntax
 
 echo "This is a shell ${WORD}"
+
+# append text to variable
+
+echo "${WORD}ing is fun!"
