@@ -23,3 +23,7 @@ echo "This is a shell ${WORD}"
 # append text to variable
 
 echo "${WORD}ing is fun!"
+
+# show how NOT to append text to a variable
+# This does not work
+echo "$WORDinf is fun!"
