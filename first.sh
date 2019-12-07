@@ -11,3 +11,11 @@ WORD='script'
 #Display that value using the variable
 
 echo "$WORD"
+
+# Display the variable with hardcoded text
+
+echo "This is a shell $WORD"
+
+# Display the content of the variable using alternative syntax
+
+echo "This is a shell ${WORD}"
