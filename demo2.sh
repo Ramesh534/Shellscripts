@@ -11,9 +11,9 @@ echo "Your UID is ${UID}"
 echo "your username is ${USERNAME}"
 
 # Display if root user or not
-if [[ '${UID}' -eq 0 ]]
+if [[ "${UID}" -eq 0 ]];
 then
-    echo 'you are root'
+    echo 'you are root';
    else
-    echo 'you are not root'
+    echo 'you are not root';
 fi
