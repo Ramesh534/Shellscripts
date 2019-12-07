@@ -27,3 +27,14 @@ echo "${WORD}ing is fun!"
 # show how NOT to append text to a variable
 # This does not work
 echo "$WORDinf is fun!"
+
+# creating a new variable
+ENDING='ed'
+
+#combine two variable
+echo "This is ${WORD}${ENDING}"
+
+# changing the value stored in the ENDING variable (Reassignment)
+
+ENDING='ing'
+echo "${WORD}${ENDING} is fun!"
