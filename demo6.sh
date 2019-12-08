@@ -17,7 +17,7 @@ echo "you supplied ${NUMBER_OF_PARAMETERS} as arguments on command line "
 # Make sure that at lear they supply one argument.
 
 
-if [[ "${@}" -lt 1 ]]
+if [[ "${NUMBER_OF_PARAMETERS}" -lt 1 ]]
 then
     echo "Usage: ${0} USER_NAME [USER_NAME]..."
     exit 1
